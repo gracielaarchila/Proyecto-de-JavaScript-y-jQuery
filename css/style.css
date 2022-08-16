@@ -1,0 +1,179 @@
+section.section-global {
+  width: 65%;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 2px grey;
+  padding: 20px;
+}
+
+section.section-global .header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+section.section-global .header .div-logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
+  width: 385px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin: 0;
+}
+
+section.section-global .header .div-search {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(211, 211, 211, 0.397);
+  line-height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: darkgrey;
+  border: 1px solid darkgray;
+}
+
+.section-global .nav {
+  width: 100%;
+  background-color: rgb(48, 41, 41);
+  margin: 0;
+  padding: 0;
+}
+
+.section-global .nav ul {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  height: 35px;
+}
+
+.section-global .nav ul li {
+  list-style: none;
+  width: auto;
+  text-align: center;
+  padding: 0;
+  height: auto;
+}
+
+.section-global .nav ul li a {
+  color: lightgrey;
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.section-global .nav ul li a:hover {
+  color: lightgray
+}
+.section-global .img-header {
+  background-image: url(../img/rojo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+.section-global .central {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-global .div-post {
+  width: 60%;
+}
+.section-global .div-post .post-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-global .div-post h2 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-global .div-post span {
+  font-size: 15px;
+  color: darkgrey;
+}
+.section-global .div-post button {
+  width: 100px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.section-global .div-aside {
+  width: 35%;
+}
+.section-global .div-aside .aside-img{
+    background-image: url(../img/caracol.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      width: 90%;
+    height: 150px;
+    
+}
+.section-global .div-aside .aside-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-global .div-aside .aside-title-item1{
+    width: 30%;
+    height: 10px;
+    background-color: darkgray;
+}
+.section-global .div-aside .aside-title-item2{
+    margin: 0 5px;
+    font-weight: 900;
+}
+.section-global .div-aside .aside-title-item3{
+    width: 30%;
+    height: 10px;
+    background-color: darkgray;
+}
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+#selector-theme{
+  position: fixed;
+  top: 40%;
+  width: 50px;
+  height: 140px;
+}
+#selector-theme #themeGreen,
+#selector-theme #themeRed,
+#selector-theme #themeBlue
+{
+width: 30px;
+height: 30px;
+border: 1px solid white;
+margin: 10px;
+}
+#selector-theme #themeRed{
+background-color: #ca3413;
+}
+#selector-theme #themeBlue{
+background-color: #1f87c4;
+}
+#selector-theme #themeGreen{
+  background-color: #235e3d;
+}
+.green {
+  background-image: url("../img/hojas.jpg");
+  background-attachment: fixed;
+}
+.blue {
+  background-image: url("../img/cielo.jpg");
+  background-attachment: fixed;
+}
+.red{
+  background-image: url("../img/rojo.jpg");
+  background-attachment: fixed;
+}
